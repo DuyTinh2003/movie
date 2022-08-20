@@ -10,7 +10,7 @@ export const FilmApi = {
     return axiosClient.get(url, param);
   },
   getSimilar: (cate, id, param) => {
-    const url = cate + "/" + id + "similar";
+    const url = cate + "/" + id + "/similar";
     return axiosClient.get(url, param);
   },
   getDetail: (cate, id, param) => {

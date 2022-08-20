@@ -19,7 +19,7 @@ function App() {
     testData();
   }, []);
   return (
-    <div className="App  bg-black">
+    <div className="App  bg-black overflow-x-hidden">
       <Router>
         <Header />
         <Routes />

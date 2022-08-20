@@ -6,7 +6,6 @@ export const movie = {
   popular: "popular",
   top_rated: "top_rated",
   upcoming: "upcoming",
-  latest: "latest",
   similar: "similar",
 };
 export const tv = {
